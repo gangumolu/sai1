@@ -5,8 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello world'
-                sh 'cp -R index.html /usr/share/nginx/html/
-            }
+                sh 'cp -R index.html /usr/share/nginx/html/'            }
         }
     }
 }

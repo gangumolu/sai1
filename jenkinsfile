@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello world'
+                sh 'cp -r index.html /var/www/html/
+            }
+        }
+    }
+}
